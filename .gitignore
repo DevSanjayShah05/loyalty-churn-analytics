@@ -1,0 +1,33 @@
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# --- Raw dataset cache (large; not committed -- see README for source/regen) ---
+data_raw/
+
+# --- Editors / OS ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+npm-debug.log*
